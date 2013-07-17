@@ -1,0 +1,14 @@
+{
+    "name":"gamehall",
+    "main":"index.html",
+    "window": {
+        "toolbar": false,
+        "frame":false,
+        "position":"center",
+        "width": 1050,
+        "height": 722
+    },
+    "webkit":{
+        "plugin":true
+    }
+}

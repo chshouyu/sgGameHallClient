@@ -1,0 +1,9 @@
+header{height:40px;background: -webkit-linear-gradient(top, #ffb441 0%,#ff981f 79%,#ff981f 100%); position:relative; -webkit-app-region:drag; -webkit-user-select:none;}
+header .func{ position:absolute; right:0;top:0;list-style:none; -webkit-app-region:no-drag; }
+header .func li{ float:left;width:26px;height:20px; cursor:pointer;}
+header .func span { display:block;position:relative; }
+header .func .close span{ width:9px;height:2px;background:#fff;border-radius:5px;-webkit-transform:rotate(45deg);top:8px;left:5px; }
+header .func .close span:after{ content:' ';display:block; width:9px;height:2px;background:#fff;border-radius:5px;-webkit-transform:rotate(-90deg); position:absolute;top:0;left:0;}
+header .tab{ position:absolute;bottom:0;left:40px;-webkit-app-region:no-drag; }
+header .tab li{ float:left;width:84px;height:36px;border:#cc8426 solid;border-width:1px 1px 0; border-radius: 3px 3px 0 0;line-height:36px;text-align:center; background: -webkit-linear-gradient(top, #ffffff 0%,#ffe0b9 45%,#ffce94 88%,#f7c891 93%,#dfb88a 100%); cursor:pointer;overflow:hidden;}
+header .tab li.current{color:#973802;background:#fff;cursor:default;}
